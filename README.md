@@ -15,3 +15,6 @@ You can use the terminal to run your project.  Use `cd projectname` to make your
 
 ## Step 5: Development
 I am going to delete all the files Vue gave us, to start with a clean slate.
+
+## Step 5 1/2: External CSS [Bulma](https://bulma.io/documentation)
+I imported and am using Bulma.  It's nothing but someone else's CSS file.  And it looks nice, and is easy to use.

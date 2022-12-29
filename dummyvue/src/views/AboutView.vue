@@ -3,9 +3,10 @@
 </script>
 
 <template>
-  <main>
-    <div>
-      <h1>this is AboutView</h1>
+  <br>
+  <div class="container">
+    <div class="box has-background-warning">
+      this is AboutView
     </div>
-  </main>
+  </div>
 </template>

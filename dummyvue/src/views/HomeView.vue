@@ -3,9 +3,10 @@
 </script>
 
 <template>
-  <main>
-    <div>
-      <h1>this is HomeView</h1>
+  <br>
+  <div class="container">
+    <div class="box has-background-success">
+      this is HomeView
     </div>
-  </main>
+  </div>
 </template>
