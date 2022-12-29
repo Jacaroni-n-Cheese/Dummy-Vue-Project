@@ -12,3 +12,6 @@ Your terminal will ask you questions.  Type to enter a project name.  I would ad
 
 ## Step 4: Running The Project
 You can use the terminal to run your project.  Use `cd projectname` to make your command directory your new project folder.  After that, you need to install your packages, `npm install`, then to run, `npm run dev` and then press the o key or control click the local http link to open it in your browser.
+
+## Step 5: Development
+I am going to delete all the files Vue gave us, to start with a clean slate.
