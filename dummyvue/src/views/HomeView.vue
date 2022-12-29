@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="box has-background-success">
+  <div class="box">
     this is HomeView
   </div>
 </template>
