@@ -6,7 +6,7 @@
     <div class="box has-background-white">
         <aside class="menu">
             <p class="menu-label">
-                Pages
+                this is SideMenu
             </p>
             <ul class="menu-list">
                 <li><a :class="{'is-active': router.currentRoute.value.name== 'home'}" @click="router.push('/')">Home</a></li>
