@@ -2,6 +2,7 @@
     import router from "@/router"
 </script>
 
+<!-- https://bulma.io/documentation/components/menu/ -->
 <template>
     <div class="box has-background-white">
         <aside class="menu">

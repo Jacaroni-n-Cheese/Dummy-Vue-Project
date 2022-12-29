@@ -2,6 +2,7 @@
 
 </script>
 
+<!-- https://bulma.io/documentation/elements/box/ -->
 <template>
   <div class="box">
     this is HomeView
