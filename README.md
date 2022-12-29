@@ -6,3 +6,6 @@ We need Node to use Vue and other packages.
 run the command 
 `npm init vue@latest`
 Your terminal will ask you questions.  Type to enter a project name.  I would add TypeScript but it is up to you.  Only thing you definitely need after that is the Vue Router.  You can say no to everything else.
+
+## Step 3: VSC Extensions
+[Vue Language Features](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
