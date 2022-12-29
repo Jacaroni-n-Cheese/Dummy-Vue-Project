@@ -10,8 +10,15 @@
                 this is SideMenu
             </p>
             <ul class="menu-list">
-                <li><a :class="{'is-active': router.currentRoute.value.name== 'home'}" @click="router.push('/')">Home</a></li>
-                <li><a :class="{'is-active': router.currentRoute.value.name== 'about'}" @click="router.push('/about')">About</a></li>
+
+                <!-- 
+                <li><a :class="{'is-active': router.currentRoute.value.name == 'home'}" @click="router.push('/')">Home</a></li>
+                <li><a :class="{'is-active': router.currentRoute.value.name == 'about'}" @click="router.push('/about')">About</a></li>
+                 -->
+
+                 <li v-for="route in router.getRoutes()" :key="route.name">
+                    <a :class="{'is-active': router.currentRoute.value.name == route.name}" @click="router.push(route.path)">{{ route.name }}</a>
+                </li>
             </ul>
         </aside>
     </div>
