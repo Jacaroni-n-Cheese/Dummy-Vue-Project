@@ -3,6 +3,8 @@ import { RouterView } from 'vue-router'
 import SideMenu from './components/SideMenu.vue'
 </script>
 
+<!-- https://bulma.io/documentation/columns/basics/ -->
+<!-- https://bulma.io/documentation/columns/sizes/ -->
 <template>
   <br>
   <div class="container">
